@@ -62,7 +62,7 @@ export const CITIES: Array<City> = [
    }
  },
  {
-  name: 'Tokyo',
+  name: 'Bắc Kinh',
   forecast: {
     conditions: 'sunny',
     wind: {
@@ -71,8 +71,28 @@ export const CITIES: Array<City> = [
     },
     temperature: {
       day: {
-        min: 22,
-        max: 28
+        min: 27,
+        max: 30
+      },
+      night: {
+        min: 24,
+        max: 26
+      }
+    }
+  }
+},
+{
+  name: 'Paris',
+  forecast: {
+    conditions: 'cloudy',
+    wind: {
+      speed: 2,
+      direction: 'south'
+    },
+    temperature: {
+      day: {
+        min: 17,
+        max: 20
       },
       night: {
         min: 16,
@@ -82,7 +102,7 @@ export const CITIES: Array<City> = [
   }
 },
 {
-  name: 'Tokyo',
+  name: 'Singapore',
   forecast: {
     conditions: 'sunny',
     wind: {
@@ -91,32 +111,12 @@ export const CITIES: Array<City> = [
     },
     temperature: {
       day: {
-        min: 22,
-        max: 28
+        min: 27,
+        max: 31
       },
       night: {
-        min: 16,
-        max: 19
-      }
-    }
-  }
-},
-{
-  name: 'Tokyo',
-  forecast: {
-    conditions: 'sunny',
-    wind: {
-      speed: 2,
-      direction: 'south'
-    },
-    temperature: {
-      day: {
-        min: 22,
+        min: 25,
         max: 28
-      },
-      night: {
-        min: 16,
-        max: 19
       }
     }
   }
